@@ -1,0 +1,53 @@
+*unite-z.txt*    z.zsh source for unite.vim
+
+Version: 0.0.1
+Author : pekepeke <pekepekesamurai+vim@gmail.com>
+License: MIT
+         <http://opensource.org/licenses/MIT>
+
+=============================================================================
+CONTENTS                            *unite-z-contents*
+
+unite-z                                     |unite-z-introduction|
+    CUSTOMIZE                                  |unite-z-customize|
+    USAGE                                          |unite-z-usage|
+
+=============================================================================
+unite-z                                               *unite-z-introduction*
+
+
+
+*unite-z* is a Vim plugin to provide unite.vim source
+to select directory on z.zsh history file.
+
+Requirement:
+    - z.zsh (Recommend latest version at https://github.com/rupa/z)
+    - |unite.vim| (Recommend latest version at https://github.com/Shougo/unite.vim)
+
+Latest version:
+    https://github.com/pekepeke/vim-unite-z
+
+
+-----------------------------------------------------------------------------
+CUSTOMIZE                                            *unite-z-customize*
+
+
+g:unite_z_path                                        *g:unite_z_path*
+
+>
+    Set The datafile path of z.zsh.(default=$HOME/.z)
+<
+
+
+-----------------------------------------------------------------------------
+USAGE                                                    *unite-z-usage*
+
+To select directory, execute |:Unite| with argument of z
+
+>
+    :Unite z
+<
+
+
+
+vim:tw=78:ts=8:ft=help:norl:
